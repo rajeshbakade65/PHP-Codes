@@ -1,4 +1,4 @@
-# PHP_Codes
+# PHP-Codes
 PHP sample Tests and Solutions
 
 This Repository will contain all the sample codes which are generally asked.
