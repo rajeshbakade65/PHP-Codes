@@ -30,6 +30,6 @@ $result = sumValue($arr, 6);
 echo "Total number of matching sum elements: ".$result[0].PHP_EOL;
 echo "Elements: ".$result[1];
 
-// sample output:
+// output:
 Total number of matching sum elements: 4
 Elements: { 0+6 }, { 1+5 }, { 2+4 }, { 3+3 }
