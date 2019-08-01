@@ -1,0 +1,17 @@
+<?php
+$a = 400;
+$b = 3;
+function get($a, $b) {
+    $result = 0;
+    $count=0;
+    for($i=0; $i < $a-$b; $i++) {
+        if(($result+$b) > $a) {
+            break;
+        } else {
+            $result +=$b;
+            $count++;
+        }
+    }
+    return $count;
+}
+echo get($a, $b);
