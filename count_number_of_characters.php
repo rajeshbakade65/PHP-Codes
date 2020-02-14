@@ -32,7 +32,7 @@ Array
 )
 ?>
 
-So, first we've defined a varible <pre>$str</pre> which contains random characters.
+So, first we've defined a varible $str which contains random characters.
 Then, in the for loop we've checked if blank array conains that character. If not then add it into an array as key and initialize it to 1
 as value initally.
 If that character is already exists then it will go inside else block and will increase that characters count by 1.
