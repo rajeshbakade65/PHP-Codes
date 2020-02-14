@@ -5,7 +5,7 @@ This Repository will contain all the sample codes which are generally asked.
 
 List:
 1. count number of matching characters in a string<br> 
-  File : count_number_of_characters to count_number_of_characters.php<br>
+  File : count_number_of_characters.php<br>
 
 2. count sum of matching array elements<br>
   File : count_sum_of_matching_array_elements.php<br>
