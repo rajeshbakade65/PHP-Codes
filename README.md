@@ -22,6 +22,7 @@ List:
 6. reverse string in different format<br>
   File : reverse_string_in_different_format.php<br>
 
+7. https://3v4l.org/uKc0m
 
 
 For more such code practice visit my website-
