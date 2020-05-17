@@ -24,6 +24,8 @@ List:
 
 7. https://3v4l.org/uKc0m
 
+8. Morse code https://3v4l.org/ovp40
+
 
 For more such code practice visit my website-
 https://www.programmingdive.com/
