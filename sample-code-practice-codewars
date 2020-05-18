@@ -1,3 +1,5 @@
+<?php
+
 /* 
 Your task is to write a function which returns the sum of following series upto nth term(parameter).
 
@@ -15,7 +17,6 @@ SeriesSum(2) => 1 + 1/4 = "1.25"
 SeriesSum(5) => 1 + 1/4 + 1/7 + 1/10 + 1/13 = "1.57"
 */
 
-<?php
 
 function series_sum($n)
 {
