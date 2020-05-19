@@ -20,3 +20,23 @@ countSmileys([';]', ':[', ';*', ':$', ';-D']); // should return 1;
 Note: In case of an empty array return 0. You will not be tested with invalid input (input will always be an array). Order of the face (eyes, nose, mouth) elements will always be the same
 
 */
+
+function countSmileys($arr)
+{
+    $count = 0;
+    foreach ($arr as $v) {
+        if (strlen($v) == 2 && in_array($v[0], array(":", ";")) && in_array($v[1], array(")", "D"))) {
+            $count++;
+        } else {
+            //valid pair of eyes as : or ;
+            if (strlen($v) == 3 && in_array($v[0], array(":", ";")) && in_array($v[1], array("-", "~")) && in_array($v[2], array(")", "D"))) {
+                $count++;
+            }
+        }
+    }
+    return $count;
+}
+
+echo countSmileys([':)', ';(', ';}', ':-D']);       // should return 2;
+echo countSmileys([';D', ':-(', ':-)', ';~)']);     // should return 3;
+echo countSmileys([';]', ':[', ';*', ':$', ';-D']); // should return 1;
