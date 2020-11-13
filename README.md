@@ -28,4 +28,4 @@ List:
 
 
 For more such code practice visit my website-
-https://www.programmingdive.com/
+https://programmingdive.com/
