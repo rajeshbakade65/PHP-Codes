@@ -46,6 +46,7 @@ krsort($st);
 $str = implode(' ', $st);
 
 ```
+---
 
 We can also split the string using regular expression using `preg_split()` function instead of `explode()` and then using any way mentioned above we can reverse the words in string.
 
