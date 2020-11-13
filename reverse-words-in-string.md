@@ -19,9 +19,9 @@ echo trim($fn_string);
 
 There are another ways as which can be useful to shorter the lines of code. 
 
-- Using array_reverse() and implode()
-- Using array_reverse() and join()
-- Using array_reverse() and krsort()
+- [Using array_reverse() and implode()](https://github.com/rajeshbakade65/PHP-Codes/blob/master/reverse-words-in-string.md#using-array_reverse-and-implode)
+- [Using array_reverse() and join()](https://github.com/rajeshbakade65/PHP-Codes/blob/master/reverse-words-in-string.md#using-array_reverse-and-join)
+- [Using array_reverse() and krsort()](https://github.com/rajeshbakade65/PHP-Codes/blob/master/reverse-words-in-string.md#using-array_reverse-and-krsort)
 
 ### Using array_reverse() and implode()
 ```php
